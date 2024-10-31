@@ -1,0 +1,460 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .mwb_twitter_tablink:hover {
+   background-color: #23282D;
+ }
+ ul.mwb_twitter_tabs{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+ }
+ ul.mwb_twitter_tabs li{
+   background-color: #32373C;
+   color: white;
+   float: left;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 17px;
+   width: 23.7%;
+   text-align: center;
+   margin-left: 5px;
+   margin-top: 10px;
+ }
+ ul.mwb_twitter_tabs li.active{
+   background-color: #0073AA;
+   color: #FFF;
+ }
+ .mwb_twitter_tabcontent{
+   display: none;
+   background: #ededed;
+   padding: 15px;
+ }
+ .mwb_twitter_tabcontent.active{
+   display: block;
+ }
+ .mwb_twitter_image {
+   background-color: #00B6F1;
+   width: 96%;
+   margin-left: 6px;
+   margin-top: 6px;
+   text-align: center;
+ }
+ .mwb_twitter_tabs:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#mwb_twitter_tweet_msg {
+  padding-left: 33px!important;
+}
+.mwb_twitter_active_settings_tab {
+  color: #fff;
+  text-decoration: none;
+  padding: 22px 16px;
+  display: block;
+}
+.mwb_twitter_active_settings_tab:hover {
+  color: #fff;
+}
+.mwb_twitter_active_settings_tab:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}
+.mwb_twitter_direct_msg{
+  position: relative;
+}
+.mwb_twitter_direct_msg_icon{
+  position: absolute;
+  top:6px;
+  left: 10px;
+  color: #ffffff;
+}
+.mwb-popup-modal-wrapper{
+  position: relative;
+  overflow: hidden;
+}
+.wmb-popup-modal {
+  background-color: #ffffff;
+  border-radius: 4px;
+  bottom: 0;
+  box-shadow: 1px 1px 5px 1px #cccccc;
+  font-family: "Roboto",sans-serif;
+  height: 380px;
+  left: 0;
+  margin: auto;
+  max-width: 550px;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.mwb-twitter-msg-send-button .dashicons.dashicons-twitter {
+ color: #ffffff;
+}
+.wmb-popup-modal a:focus{
+  outline:0;
+}
+.wmb-popup-modal .wmb-popup-modal-title {
+  padding: 10px 28px;
+  text-align: center;
+}
+.wmb-popup-modal-title .mwb_visitor_demo a , .wmb-popup-modal .mwb-skip-button{
+  color: #5da5fb;
+}
+.wmb-popup-modal .mwb-skip-button {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+.mwb_visitor_demo {
+  color: #9e9e9e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.wmb-popup-modal-title .not-convinec-para {
+  color: #000000;
+  font-family: "Lobster",cursive;
+  font-size: 22px;
+  line-height: 1;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.top-title-wrap .mwb_visitor_demo {
+  margin-bottom: 5px;
+}
+.wmb-popup-modal .wmb-popup-modal-modal-body {
+  padding: 10px 35px;
+}
+.wmb-popup-modal .input, .wmb-popup-modal .textarea {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #ffffff none repeat scroll 0 0;
+  border-color: currentcolor currentcolor #cccccc;
+  border-image: none;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  box-sizing: border-box;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  padding: 10px;
+  transition: all 0.3s linear 0s;
+  width: 100%;
+}
+.wmb-popup-modal .input:focus, .wmb-popup-modal .textarea:focus {
+  border-bottom: 2px solid #5da5fb;
+  transition: all 0.3s linear 0s;
+  outline: 0;
+}
+.wmb-popup-modal .textarea {
+  height: 115px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.wmb-popup-modal .mwb-twitter-popup-button {
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, #5da5fb, #6d66d4) repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 17px;
+  width: 45%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.mwb-twitter-msg-send-button span {
+  margin-left: 140px;
+  position: absolute;
+  margin-top: 15px;
+}
+#mwb_twitter_close_popup {
+  border: 1px solid black;
+  border-radius: 50%;
+  float: right;
+  font-size: 25px;
+  margin-right: 12px;
+  margin-top: 10px;
+  padding: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*new admin css*/
+.mwb_twitter_all_posts_wrapper > label {
+  margin-left: 15px;
+  width: 35%;
+  display: inline-block;
+}
+.mwb_twitter_enable_checkbox {
+ display: inline-block;
+ margin-right: 10px;
+ position: relative;
+}
+.mwb_twitter_enable_checkbox #mwb_twitter_share_your_posts {
+ height: 22px;
+ margin: 0;
+ opacity: 0;
+ width: 22px;
+ z-index: 1;
+}
+.mwb_twitter_enable_checkbox #mwb_twitter_share_your_posts + label::after {
+ background-color: #0073aa;
+ border-radius: 3px;
+ content: "";
+ display: inline-block;
+ height: 22px;
+ left: 0;
+ position: absolute;
+ text-align: center;
+ width: 22px;
+}
+.mwb_twitter_enable_checkbox #mwb_twitter_share_your_posts:checked + label::before {
+ color: #ffffff;
+ content: "\f147";
+ font-family: dashicons;
+ font-size: 25px;
+ left: -2px;
+ line-height: 1;
+ position: absolute;
+ z-index: 1;
+}
+.mwb_twitter_post_sharing_button {
+ margin-left: 15px;
+ margin-top: 40px;
+}
+@keyframes mwb_twitter_message_popup_zoom {
+ from {
+  transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+  -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+  -moz-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+  -ms-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+  -o-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+  animation-timing-function: ease-in;
+  opacity: 0;
+}
+40% {
+  transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+  -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+  -moz-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+  -ms-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+  -o-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+  animation-timing-function: ease-in;
+}
+60% {
+  transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+  -moz-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+  -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+  -ms-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+  -o-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+  opacity: 1;
+}
+80% {
+  transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  -ms-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  -o-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  -moz-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+}
+to {
+  transform: perspective(400px);
+  -webkit-transform: perspective(400px);
+  -moz-transform: perspective(400px);
+  -ms-transform: perspective(400px);
+  -o-transform: perspective(400px);
+}
+}
+.mwb_twitter_message_pop_up_zoom {
+  animation-name: mwb_twitter_message_popup_zoom;
+}
+#mwb_twitter_submit_pro_image span {
+  left: 25px;
+  position: relative;
+  top: 10px;
+  color: #fff;
+}
+#mwb_twitter_profile_img {
+  padding-left: 25px;
+}
+#mwb_twitter_profile_img {
+  height: auto !important;
+  padding-bottom: 5px;
+  padding-left: 24px;
+  padding-top: 5px;
+}
+#mwb_twitter_other_setting_remove_logo{
+  display: none;
+}
+#mwb_twitter_status_setting_remove_logo{
+  display: none;
+}
+#mwb_twitter_profile_notices{
+  display: none;
+}
+#mwb_twitter_banner_setting_remove_logo{
+  display: none;
+}
+.mwb_twitter_all_posts_wrapper {
+ padding-left: 15px;
+}
+.mwb_twitter_all_posts_wrapper label {
+ margin-left: 0;
+}
+#mwb_twitter_save_custom_message {
+  float: left;
+  margin-bottom: 10px;
+}
+.mwb_twitter_saved_msg {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+.mwb-popup-modal-wrapper::after {
+ background-color: rgba(0, 0, 0, 0.5);
+ bottom: 0;
+ content: "";
+ left: 0;
+ position: fixed;
+ right: 0;
+ top: 0;
+ z-index: 99;
+}
+/*followers css*/
+.mwb_twitter_direct_message_notify.mwb-twitter-get-msg {
+ color: #ff1010;
+}
+.mwb_twitter_direct_message_notify {
+ display: block;
+ position: relative;
+}
+.mwb_twitter_direct_msg_count {
+ position: absolute;
+ top: -10px;
+}
+.mwb_twitter_get_messages {
+ margin-top: 6px;
+}
+.mwb_twitter_get_messages {
+ margin-top: 6px!important;
+}
+.mwb_twitter_notification {
+ padding-bottom: 12px!important;
+ padding-top: 12px!important;
+}
+#mwb-twitter-all-followers {
+  margin-top: 10px;
+  max-width: 96%;
+  padding: 10px;
+}
+.mwb_twitter_direct_msg_success > p {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.mwb_twitter_direct_message_notify > i {
+  color: #00B6F1;
+}
+.mwb_twitter_prodile_image{
+  display: none;
+}
+.mwb_twitter_notification {
+ position: relative;
+}
+.mwb_twitter_pro_image_popup {
+ background-color: #ffffff;
+ border: 1px solid #cccccc;
+ left: 0;
+ padding: 7px;
+ position: absolute;
+ top: 4px;
+ width: 100px;
+ z-index: 9;
+}
+.mwb_twitter_pro_image_popup > span {
+ border: 1px solid #000000;
+ border-radius: 50%;
+ cursor: pointer;
+ font-size: 16px;
+ font-weight: bold;
+ height: 20px;
+ position: absolute;
+ right: -21px;
+ text-align: center;
+ top: -17px;
+ width: 20px;
+}
+.mwb_twitter_pro_image_popup img {
+ width: 100%;
+}
+#mwb_twitter_admin_error_notices {
+  margin: 5px;
+  width: 90%;
+}
+#mwb_twitter_admin_notices {
+  margin: 5px;
+  width: 90%;
+}
+/*loader*/
+.mwb_twitter_for_wordpress_loader_wrapper {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0px;
+   background-color: rgba(0, 0, 0, 0.43);
+   left: 0px;
+   z-index: 99999;
+} 
+div#mwb_twitter_for_wordpress img {
+   width: 100%;
+}
+div#mwb_twitter_for_wordpress {
+   width: 80px;
+   margin: 0 auto;
+   top: 50%;
+   position: absolute;
+   left: 0px;
+   right: 0px;
+   transform: translateY(-50px);
+}
+/*end*/
+/*end followers css*/
+@media only screen and (max-width: 640px){
+  .wmb-popup-modal-title .not-convinec-para{
+    float: none;
+    text-align: center;
+  }
+  .top-title-wrap .mwb_visitor_demo {
+    float: none;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left:  left;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  ul.mwb_twitter_tabs li {
+   width: 96%!important;
+ }
+ .mwb_twitter_active_settings_tab {
+   padding: 12px 16px!important;
+ }
+ .mwb_twitter_all_posts_wrapper > label {
+   width: 100%;
+   display: block;
+   margin-bottom: 10px;
+ }
+}

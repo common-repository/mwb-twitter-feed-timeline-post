@@ -1,0 +1,139 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.mwb-twitter-share-button {
+  background-color: #1b95e0;
+  border-radius: 3px;
+  box-shadow: none !important;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  padding: 2px 8px 3px 4px;
+  position: relative;
+}
+ .mwb-twitter-share-button:hover{
+ 	transition: none!important;
+ 	box-shadow: none!important;
+ 	color:#fff;
+ }
+ .mwb_twitter_tooltip {
+  position: relative;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 1px 8px 1px 6px;
+  background-color: #23282D;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: none!important;
+}
+.mwb_twitter_tooltip > a {
+  color: #fff!important;
+  margin-top: 4px!important;
+  margin-left: 5px!important;
+}
+.mwb-twitter-follow-button{
+  position: relative;
+  box-sizing: border-box;
+  padding: 8px;
+  background-color: #1b95e0;
+  color: #fff!important;
+  border-radius: 3px;
+  font-weight: bolder!important;
+  font-size: 15px!important;
+  cursor: pointer;
+  box-shadow: none!important;
+  text-decoration: none!important;
+ }
+ .mwb_twitter_home_timeline_tweets {
+ -moz-border-bottom-colors: none;
+ -moz-border-left-colors: none;
+ -moz-border-right-colors: none;
+ -moz-border-top-colors: none;
+ border-color: #cccccc currentcolor #cccccc #cccccc;
+ border-image: none;
+ border-style: solid none solid solid;
+ border-top-left-radius: 20px;
+ border-width: 1px 0 1px 1px;
+ height: 400px;
+ margin-bottom: 30px;
+ overflow: auto;
+ padding: 5px;
+}
+.mwb_twitter_home_timeline_tweets > ul > li::after {
+ clear: both;
+ content: "";
+ display: flex;
+}
+.mwb_twitter_home_timeline_tweets > ul > li {
+ background-color: #9edbfd;
+ border-bottom-right-radius: 25px;
+ border-top-left-radius: 25px;
+ color: #000000;
+ font-weight: 400;
+ margin-bottom: 15px;
+ opacity: 1;
+ padding: 7px 5px;
+}
+.mwb_twitter_home_timeline_tweets ul li img {
+ border-radius: 50%;
+ float: left;
+ margin-right: 10px;
+ width: 50px;
+}
+.mwb_twitter_user_data {
+ float: left;
+ overflow-wrap: unset;
+ vertical-align: top;
+ width: calc(100% - 60px);
+}
+.mwb_twitter_home_timeline_tweets > ul > li a {
+ background-color: #ffffff;
+ border-radius: 40px;
+ color: #000000;
+ display: inline-block;
+ margin-bottom: 2px;
+ margin-top: 2px;
+ padding: 2px 5px;
+ position: relative;
+ text-decoration: none!important;
+ transition: all 0.5s linear 0s;
+ float: right;
+}
+.mwb_twitter_home_timeline_tweets > ul > li  a:hover {
+ background-color: #1DA1F2;
+ color: #ffffff;
+ z-index: 9;
+}
+.mwb_twitter_home_timeline_tweets > ul > li  a::after {
+ background-color: #1DA1F2;
+ border-radius: 40px;
+ bottom: auto;
+ content: "";
+ height: 0;
+ left: 0;
+ position: absolute;
+ right: 0;
+ top: 0;
+ transition: all 0.5s linear 0s;
+ z-index: -1;
+}
+.mwb_twitter_home_timeline_tweets > ul > li  a:hover::after {
+ bottom: 0;
+ height: 100%;
+ transition: all 0.5s linear 0s;
+}
+.mwb-twitter-icon{
+  vertical-align: middle;
+  margin: 5px 5px 5px 6px;
+}
+.mwb-twitter-follow-button > i {
+  vertical-align: middle;
+}
+.mwb_twitter_for_wordpress_follow_button_widget {
+  margin-bottom: 30px;
+}
